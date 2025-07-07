@@ -10,101 +10,116 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo conectar final.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
-  <header>
-    <h1>Agencia de Mudanzas</h1>
-    <p>Conectamos personas de todo el país con transportistas verificados para mudanzas seguras, ágiles y sin complicaciones.</p>
-    <nav>
-      <a href="#formulario" class="cta">Solicitá tu presupuesto</a>
-      <a href="https://forms.gle/aCbwCmrxWYicbdVj6" class="link" target="_blank" rel="noopener">¿Sos transportista? Sumate a nuestra flota</a>
-    </nav>
-  </header>
+<header>
+  <div class="logo-container animate__animated animate__zoomIn">
+    <img src="./images/logo_conectar_final_sin_fondo.png" alt="Logo Agencia de Mudanzas" class="logo">
+    <div class="titulo-header">
+      <h1 class="animate__animated animate__fadeInDown animate__delay-1s">Agencia de Mudanzas</h1>
+      <p class="animate__animated animate__fadeInUp animate__delay-2s">
+        Conectamos personas de todo el país con transportistas verificados para mudanzas seguras, ágiles y sin complicaciones.
+      </p>
+    </div>
+  </div>
+  <nav>
+    <a href="#formulario" class="cta animate__animated animate__fadeIn animate__delay-3s">Solicitá tu presupuesto</a>
+    <a href="https://forms.gle/9eP6smyQnDoAx2jw6" class="link animate__animated animate__fadeIn animate__delay-4s" target="_blank" rel="noopener">
+      ¿Sos transportista? Sumate a nuestra flota
+    </a>
+  </nav>
+</header>
 
-  <!-- Imagen en pantalla completa -->
-  <section class="full-map">
-    <img src="./images/map-5307466_1920.jpg" alt="Mapa de la República Argentina">
+<section class="full-map">
+  <img src="./images/map-5307466_1920.jpg" alt="Mapa de la República Argentina"
+       class="animate__animated animate__fadeIn animate__slow" />
+</section>
+
+<main>
+  <section class="info">
+    <h2 class="animate__animated animate__fadeInDown">¿Qué es Agencia de Mudanzas?</h2>
+    <p class="animate__animated animate__fadeInUp">
+      Somos una plataforma que conecta personas con necesidad de mudarse con transportistas calificados y habilitados en distintas regiones del país. Nuestro objetivo es facilitar el proceso de mudanza de punta a punta, garantizando confiabilidad, orden y un seguimiento profesional.
+    </p>
   </section>
 
-  <main>
-    <section class="info">
-      <h2>¿Qué es Agencia de Mudanzas?</h2>
-      <p>Somos una plataforma que conecta personas con necesidad de mudarse con transportistas calificados y habilitados en distintas regiones del país. Nuestro objetivo es facilitar el proceso de mudanza de punta a punta, garantizando confiabilidad, orden y un seguimiento profesional.</p>
-    </section>
+  <section class="info">
+    <h2 class="animate__animated animate__fadeInDown animate__delay-1s">¿Cómo funciona?</h2>
+    <ol class="animate__animated animate__fadeInUp animate__delay-2s">
+      <li>Completás el formulario con los detalles de tu mudanza.</li>
+      <li>Te enviamos opciones de transportistas verificados y disponibles.</li>
+      <li>Vos elegís, confirmás, y coordinamos toda la operación.</li>
+    </ol>
+  </section>
 
-    <section class="info">
-      <h2>¿Cómo funciona?</h2>
-      <ol>
-        <li>Completás el formulario con los detalles de tu mudanza.</li>
-        <li>Te enviamos opciones de transportistas verificados y disponibles.</li>
-        <li>Vos elegís, confirmás, y coordinamos toda la operación.</li>
-      </ol>
-    </section>
+<section class="servicios scroll-anim" data-anim="pulse">
+  <h2>¿Por qué elegirnos?</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🚛</div>
+      <h3>Transportistas verificados</h3>
+      <p>Trabajamos solo con vehículos habilitados para operar en rutas nacionales y provinciales.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🧾</div>
+      <h3>Presupuestos rápidos</h3>
+      <p>Te respondemos con opciones claras y competitivas para tu mudanza.</p>
+    </div>
+    <div class="card">
+      <div class="icon">📍</div>
+      <h3>Cobertura nacional</h3>
+      <p>Tenemos contacto con transportistas en distintos puntos del país.</p>
+    </div>
+  </div>
+</section>
 
-    <section class="servicios">
-      <h2>¿Por qué elegirnos?</h2>
-      <div class="cards">
-        <div class="card">
-          <div class="icon">🚛</div>
-          <h3>Transportistas verificados</h3>
-          <p>Trabajamos solo con vehículos habilitados para operar en rutas nacionales y provinciales.</p>
-        </div>
-        <div class="card">
-          <div class="icon">🧾</div>
-          <h3>Presupuestos rápidos</h3>
-          <p>Enviás tus datos y te respondemos con opciones claras y competitivas para tu mudanza.</p>
-        </div>
-        <div class="card">
-          <div class="icon">📍</div>
-          <h3>Cobertura nacional</h3>
-          <p>Tenemos contacto con transportistas en distintos puntos estratégicos del país.</p>
-        </div>
-      </div>
-    </section>
 
-    <section class="quienes-somos">
-      <h2>¿Quiénes somos?</h2>
-      <p>
-        Con más de 20 años de experiencia en el rubro de mudanzas, hemos recorrido más de <strong>200 ciudades</strong> y trabajado en al menos <strong>8 provincias argentinas</strong>, consolidando una trayectoria basada en el compromiso, la puntualidad y la confianza.  
-        <br><br>
-        Nuestra historia comenzó como una empresa familiar y hoy evolucionamos hacia una agencia que integra tecnología y redes colaborativas para conectar a personas con transportistas verificados en todo el país.  
-        <br><br>
-        Sabemos que mudarse es una experiencia emocional, por eso acompañamos a nuestros clientes con empatía, profesionalismo y soluciones claras. Te damos la tranquilidad de que estás confiando tu traslado a gente que ya ayudó a cientos de familias y negocios a comenzar nuevas etapas.
-      </p>
-    </section>  
-    
+<section class="quienes-somos scroll-anim" data-anim="fadeInRight">
+  <h2>¿Quiénes somos?</h2>
+  <p>
+    Con más de 20 años de experiencia en el rubro de mudanzas, hemos recorrido más de <strong>200 ciudades</strong> y trabajado en al menos <strong>8 provincias argentinas</strong>, consolidando una trayectoria basada en el compromiso, la puntualidad y la confianza.
+    <br><br>
+    Nuestra historia comenzó como una empresa familiar y hoy evolucionamos hacia una agencia que integra tecnología y redes colaborativas para conectar a personas con transportistas verificados en todo el país.
+    <br><br>
+    Sabemos que mudarse es una experiencia emocional, por eso acompañamos a nuestros clientes con empatía, profesionalismo y soluciones claras. Te damos la tranquilidad de que estás confiando tu traslado a gente que ya ayudó a cientos de familias y negocios a comenzar nuevas etapas.
+  </p>
+</section>
 
-    <section id="formulario" class="formulario">
-      <h2>Solicitá tu presupuesto</h2>
-      <form action="https://formspree.io/f/xldnpovp" method="POST">
-        <input type="text" name="nombre" placeholder="Tu nombre" required />
-        <input type="email" name="email" placeholder="Tu correo electrónico" required />
-        <input type="tel" name="telefono" placeholder="Tu teléfono" required />
-        <input type="text" name="origen" placeholder="Ciudad de origen" required />
-        <input type="text" name="destino" placeholder="Ciudad de destino" required />
-        <input type="date" name="fecha" placeholder="Fecha estimada" required />
-        <textarea name="detalles" placeholder="Detalles adicionales (volumen, objetos grandes, piso, etc.)"></textarea>
-        <button type="submit">Enviar solicitud</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    <div class="redes">
-      <p>Seguinos en nuestras redes:</p>
-      <a href="https://facebook.com" target="_blank">Facebook</a> |
-      <a href="https://instagram.com" target="_blank">Instagram</a> |
-      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-    </div>  
-    <p>Diseño y derechos reservados &copy; 2025 por Impulsar, agencia de marketing y publicidad.</p>
-    <img src="./images/logopng-removebg-preview.png" alt="Logo ImpulsAR" class="logo-footer" />
-  </footer>
-  <a href="https://wa.me/5493364536248" class="whatsapp-float" target="_blank" aria-label="Contactanos por WhatsApp">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-  </a>
   
-  <script src="script.js"></script>
+  <section id="formulario" class="formulario scroll-anim" data-anim="zoomIn">
+    <h2>Solicitá tu presupuesto</h2>
+    <form action="https://formspree.io/f/xldnpovp" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo electrónico" required />
+      <input type="tel" name="telefono" placeholder="Tu teléfono" required />
+      <input type="text" name="origen" placeholder="Ciudad de origen" required />
+      <input type="text" name="destino" placeholder="Ciudad de destino" required />
+      <input type="date" name="fecha" placeholder="Fecha estimada" required />
+      <textarea name="detalles" placeholder="Detalles adicionales (volumen, objetos grandes, piso, etc.)"></textarea>
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </section>
+</main>
+
+<footer class="animate__animated animate__fadeIn animate__slow">
+  <div class="redes">
+    <p>Seguinos en nuestras redes:</p>
+    <a href="https://www.facebook.com/profile.php?id=61577701335434 " target="_blank">Facebook</a> |
+    <a href="https://www.instagram.com/conectar_mudanzas?igsh=MWV5am1meHEzd2hpbg==" target="_blank">Instagram</a> |
+    <!-- <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> -->
+  </div>  
+  <p>Diseño y derechos reservados &copy; 2025 por Impulsar, agencia de marketing y publicidad.</p>
+  <img src="./images/logopng-removebg-preview.png" alt="Logo ImpulsAR" class="logo-footer" />
+</footer>
+
+<a href="https://wa.me/5493364389809" class="whatsapp-float" target="_blank" aria-label="Contactanos por WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+<script src="script.js"></script>
 </body>
 </html>

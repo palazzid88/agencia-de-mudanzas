@@ -14,20 +14,38 @@ body {
 
 /* Encabezado */
 header {
-  background-color: #b00020;
+  background-color:#e1cb67;
   color: white;
   padding: 2rem;
   text-align: center;
 }
 
+header .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+header .logo-container img.logo {
+  width: 150px;
+  height: auto;
+}
+
+header .logo-container .titulo-header {
+  flex: 1;
+}
+
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
+  color: #222;
 }
 
 header p {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
+  color: #222;
 }
 
 nav {
@@ -38,7 +56,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #222;
   text-decoration: none;
   font-weight: 600;
   padding: 0.5rem 1rem;
@@ -48,8 +66,8 @@ nav a {
 }
 
 nav a:hover {
-  background-color: white;
-  color: #b00020;
+  background-color: #222;
+  color: #e1cb67;
 }
 
 /* Imagen a pantalla completa */
@@ -73,7 +91,7 @@ main {
 }
 
 .info h2 {
-  color: #b00020;
+  color: #222;
   margin-bottom: 1rem;
 }
 
@@ -88,12 +106,12 @@ main {
   margin: 3rem auto;
   padding: 2rem 1rem;
   background-color: #f4f4f4;
-  border-top: 3px solid #b00020;
-  border-bottom: 3px solid #b00020;
+  border-top: 3px solid #e1cb67;
+  border-bottom: 3px solid #e1cb67;
 }
 
 .servicios h2 {
-  color: #b00020;
+  color: #222;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
@@ -123,12 +141,12 @@ main {
 .icon {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #b00020;
+  color: #e1cb67;
 }
 
 .card h3 {
   margin-bottom: 0.5rem;
-  color: #b00020;
+  color: #e1cb67;
   font-size: 1.2rem;
 }
 
@@ -144,7 +162,7 @@ main {
 }
 
 .quienes-somos h2 {
-  color: #b00020;
+  color: #222;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -167,7 +185,7 @@ main {
 
 .formulario h2 {
   margin-bottom: 1rem;
-  color: #b00020;
+  color: #222;
   text-align: center;
 }
 
@@ -187,8 +205,8 @@ form textarea {
 }
 
 form button {
-  background-color: #b00020;
-  color: white;
+  background-color: #222;
+  color: #e1cb67;
   border: none;
   padding: 0.8rem;
   border-radius: 5px;
@@ -198,7 +216,8 @@ form button {
 }
 
 form button:hover {
-  background-color: #8e0019;
+  background-color: #e1cb67;
+  color: #222;
 }
 
 /* Footer */
@@ -214,7 +233,7 @@ footer {
 }
 
 .redes a {
-  color: #f06262;
+  color: #e1cb67;
   text-decoration: none;
   font-weight: bold;
   margin: 0 0.5rem;
@@ -271,4 +290,24 @@ footer {
   .full-map img {
     max-height: 40vh;
   }
+
+
+
+  /* Header con logo */
+
+
+@media (max-width: 600px) {
+  header .logo-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header .logo-container img.logo {
+    width: 70px;
+    margin-bottom: 10px;
+  }
+}
+
+
 }
