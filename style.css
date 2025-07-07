@@ -243,10 +243,13 @@ footer {
   text-decoration: underline;
 }
 
+.p-footer{
+  font-size: 8px;
+}
 
 .logo-footer {
-  width: 120px;
-  margin-top: 1rem;
+  width: 100px;
+  /* margin-top: 1rem; */
 }
 
 .whatsapp-float {
